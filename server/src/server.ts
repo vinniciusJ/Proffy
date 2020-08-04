@@ -1,10 +1,11 @@
-import express, { request, response, json } from 'express'
+import express from 'express'
 
 const app = express()
 
-app.get('/', (request, response) => {
-    return response.json({message: 'Hello world'})
+app.use(express.json())
+
+app.post('/', (request, response) => {
+    return response.json({page: 'Home'})
 })
 
 app.listen(3333)
-//localhost:3333
