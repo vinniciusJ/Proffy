@@ -26,6 +26,10 @@
 * Rota para listar aulas
     * Filtrar por _matéria_, _dia da semana_ e _horário_
 
+## Migrations
+
+* As _migrations_ são reponsáveis por controlarem a versão do banco de dados
+
 ## Observações
 
 * O _Browser_ somente faz requisições usando o método `GET`
